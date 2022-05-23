@@ -1,0 +1,84 @@
+/* You can add global styles to this file, and also import other style files */
+.category-food,
+.category-wear,
+.category-meds,
+.category-hig,
+.category-agd
+{
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  
+}
+
+.category-food {
+
+    
+   
+
+    background: url("/assets/kategorie/zywność.png") no-repeat;
+
+    background-size: contain;
+  
+}
+.category-food:hover {
+
+    cursor: pointer;
+
+
+    background: url("/assets/kategorie/żywność_hover.png") no-repeat;
+    background-size: contain;
+}
+.category-wear {
+
+    
+   
+
+    background: url("/assets/kategorie/ubrania_v3.png") no-repeat;
+
+    background-size: contain;
+  
+}
+.category-wear:hover {
+
+  
+    cursor: pointer;
+
+    background: url("/assets/kategorie/ubrania_hover.png") no-repeat;
+    background-size: contain;
+}
+.category-meds {
+
+    
+   
+
+    background: url("/assets/kategorie/leki_v1.png") no-repeat;
+
+    background-size: contain;
+  
+}
+.category-meds:hover {
+
+    cursor: pointer;
+
+
+    background: url("/assets/kategorie/leki_hover.png") no-repeat;
+    background-size: contain;
+}
+.category-hig {
+
+    
+   
+
+    background: url("/assets/kategorie/Higiena.png") no-repeat;
+
+    background-size: contain;
+  
+}
+.category-hig:hover {
+
+  
+    cursor: pointer;
+
+    background: url("/assets/kategorie/Higiena_hover.png") no-repeat;
+    background-size: contain;
+}
